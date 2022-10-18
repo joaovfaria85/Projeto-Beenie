@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* fontes */
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Courgette', cursive;
+    font-weight: normal ;
+}
+
+body,
+input,
+textarea,
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #080808e8;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #080808;
+    color: #10ff00;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    color: #10ff00;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #10ff00;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.times img{
+    height: 40px;
+}
+
+.times li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+    color: #10ff00;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.perfil{
+    margin-right: 32px;
+    border-radius: 200px;
+}
+
+.social-medias img{
+    height: 40px;
+}
+
+.social-medias li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-medias li a{
+    text-decoration: none;
+}
+
+#contato .container{
+    display: block;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    max-width: 300px;
+    background-color: rgb(188, 192, 196);
+}
+
+form textarea{
+    resize: none;
+    height: 90px;
+}
+
+form button{
+    background-color: #080808e8;
+    color: #10ff00;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #3d3535e8;
+}
+
+footer{
+    background-color: #080808;
+    color: #10ff00;
+    padding: 16px 0;
+    text-align: center;
+}
